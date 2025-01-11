@@ -1,5 +1,7 @@
 # Default ignored files
 /shelf/
 /workspace.xml
-/DSA-WITH-LECTURE.iml
-/.idea
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
