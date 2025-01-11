@@ -1,0 +1,19 @@
+# Default ignored files
+/shelf/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+#Ignore out folder
+out/
+
+# Ignore DSA-WITH-LECTURE.iml
+/DSA-WITH-LECTURE.iml
+
+#Ignore DSA-With-Lecture.iml
+DSA-With-Lecture.iml
+
+
+#Ignore .idea folder in childe folder
+
+
