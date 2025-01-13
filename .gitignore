@@ -13,7 +13,7 @@ out/
 #Ignore DSA-With-Lecture.iml
 DSA-With-Lecture.iml
 
-
+/Main.java
 #Ignore .idea folder in childe folder
 
 
