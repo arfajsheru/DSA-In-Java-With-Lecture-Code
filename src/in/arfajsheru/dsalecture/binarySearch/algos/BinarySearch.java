@@ -6,22 +6,21 @@ public class BinarySearch {
         System.out.println(result);
     }    
 
+
     public static int search(int[] sortedArray, int target){
-        int beg = 0, end = sortedArray.length -1;
-   
+        int beg = 0, end = sortedArray.length -1; // 11,
         while (beg <= end) {
-            int mid = beg + (end - beg) / 2;
-            if(sortedArray[mid] == target){
+            int mid = beg + (end - beg) / 2; // mid = 11 / 2 =  5 , 5 / 10 = 2,
+            if(sortedArray[mid] == target){ // 6 == 5, 5 == 3
                 System.out.printf("Your target %d number in the array index number: " ,target);
                 return mid;
-            } else if(target < sortedArray[mid]){
-                end = mid - 1;
+            } else if(target < sortedArray[mid]){ // 5 < 6 , 5 < 3 
+                end = mid - 1;  // 5 - 1 = 4
             }
             else{
                 beg = mid + 1;
             }
         }
-        
         return -1;
     }
 }
